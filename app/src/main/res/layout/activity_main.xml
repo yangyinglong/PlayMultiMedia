@@ -12,6 +12,7 @@
         android:layout_weight="1">
 
         <TextView
+            android:background="@drawable/picture_sign_1"
             android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -40,10 +41,12 @@
             android:background="@drawable/black"/>
 
         <TextView
+            android:background="@drawable/music_sign_1"
             android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:id="@+id/textView" />
 
     </LinearLayout>
 
@@ -54,10 +57,12 @@
         android:layout_weight="1">
 
         <TextView
+            android:background="@drawable/video_sign"
             android:layout_margin="10dp"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:id="@+id/textView2" />
 
         <Button
             android:id="@+id/video_play"

@@ -34,10 +34,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.picture_play:
                 Toast.makeText(MainActivity.this, "you click picture button", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(MainActivity.this, Picture_Play.class);
-                startActivity(intent);
+                Intent intent_picture = new Intent(MainActivity.this, Picture_Play.class);
+                startActivity(intent_picture);
                 break;
             case R.id.music_play:
+                Intent intent_music= new Intent(MainActivity.this, MusicPlayActivity.class);
+                startActivity(intent_music);
                 break;
             case R.id.video_play:
                 break;
